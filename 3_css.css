@@ -1,0 +1,66 @@
+main {
+    margin-left: 15%;
+    padding-top: 100px;
+}
+
+#jumpMenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 15%;
+    height: 100vh;
+    background: yellow;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 15%; 
+    width: 85%;
+    height: 100px;
+    z-index: 1000;
+}
+
+header p {
+    background-color: red;
+    padding: 15px;
+    font-size: 25px;
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    flex-wrap: wrap;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 10px; 
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+article {
+    width: 300px;
+    margin: 10px;
+}
+
+#thanks {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background: lightblue;
+    padding: 30px 40px;
+    border: 1px solid black;
+}
