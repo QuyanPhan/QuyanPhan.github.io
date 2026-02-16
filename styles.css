@@ -1,0 +1,48 @@
+/* ===== Basic styles (Mobile) ===== */
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightskyblue;
+    margin: 0;
+}
+
+header {
+    background-color: gainsboro;
+    color: black;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+
+header a {
+    color: blue;
+}
+
+main {
+    padding: 15px;
+}
+
+section {
+    background: white;
+    margin-bottom: 15px;
+    padding: 12px;
+}
+
+/* ===== Desktop layout ===== */
+
+@media (min-width: 900px) {
+
+
+    body {
+        background-color: antiquewhite;
+    }
+
+    main {
+        max-width: 700px;
+        margin: 20px auto;
+    }
+    
+    section {
+        padding: 20px;
+    }
+}
