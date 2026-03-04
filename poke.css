@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    font-size: 20px;
+}
+
+
+#input {
+    border: 1px solid black; 
+    padding: 3px;
+}
+
+#findButton, #addButton {
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+#dropdownArea{
+    display:flex;
+    justify-content:space-between;
+    width: 300px;
+    margin: 0 auto;
+}
+
+select{
+    width: 120px;
+    padding: 6px;
+    border: 1px solid black;
+}
+
+#team{
+    width: 300px;
+    margin: 20px auto;
+}
+
+.teamMember{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.teamMember ul{
+    margin: 0;
+    padding-left: 20px;
+    text-align: left;
+}

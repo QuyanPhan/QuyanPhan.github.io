@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Pokemon</title>
+        <link rel="stylesheet" href="poke.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="poke.js" defer></script>
+    </head>
+
+    <body>
+
+        <div id="inputArea"> 
+            <label for="input">Name or ID </label> <br>
+            <input name="input" id="input" type="text">
+            <button onclick="findInfo()" id="findButton" type="button">Find</button>
+        </div>
+
+        <img id="pokemonImage"> <br>
+        <audio id="pokemonSound" controls></audio>
+
+        <div id="dropdownArea">
+
+            <div class="leftSide">
+                <select id="move1">
+                    <option></option>
+                </select>
+
+                <select id="move2">
+                    <option></option>
+                </select>
+            </div>
+
+            <div class="rightSide">
+                <select id="move3">
+                    <option></option>
+                </select>
+
+                <select id="move4">
+                    <option></option>
+                </select>
+            </div>
+
+        </div>
+        
+        <button onclick="add()" id="addButton" type="button">Add to Team</button>
+      
+        <div id="team"></div>
+ 
+    </body>
+</html>
